@@ -36,3 +36,4 @@ export const findForecastByDay = async({name, region, country, enpoint, method})
     const data = await response.json();
     return data;
 }
+

@@ -1,4 +1,11 @@
+
 import {searchWeather} from "./findApi.js";
+import ubication from "./myUbication.js";
+
+addEventListener("DOMContentLoaded", async(e)=>{
+    const response = await ubication();
+    
+})
 
 addEventListener("scroll", (e)=>{
      console.log(window.scrollY);

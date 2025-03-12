@@ -71,11 +71,16 @@ header{
 .div__title{
     display: flex;
     align-items: flex-end;
+    /* background: red; */
+    flex: 2;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 .div__title h1{
     /* transition:font-size 0.4s ease-in-out; */
-    font-size: 112px;
+    font-size: 6rem;
     color: var(--color-1);
+    letter-spacing: -5px;
 }
 .div__title span{
     /* transition:font-size 0.4s ease-in-out; */
@@ -83,6 +88,7 @@ header{
     color: var(--color-1);
 }
 .div__image{
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,13 +96,14 @@ header{
 .div__image img{
     /* transition:width 0.4s ease-in-out, height 0.4s ease-in-out; */
     /* background: red; */
-    width: 107px;
-    height: 107px;
+    width: 95px;
+    height: 95px;
     object-fit: contain;
 }
 .div__image span{
     font-size: 22px;
     color: var(--color-1);
+    text-align: center;
 }
 .div__footer {
     transition:display 0.4s ease-in-out;
